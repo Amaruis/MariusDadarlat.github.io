@@ -1,6 +1,0 @@
-#!/bin/csh
-foreach name (`cat ~mdd/WWW/GPOTS2015/invited-list`)
-mailx -s "GPOTS INFO" $name < ~mdd/WWW/GPOTS2015/requests-invited.tex
-sleep 1
-end
-
