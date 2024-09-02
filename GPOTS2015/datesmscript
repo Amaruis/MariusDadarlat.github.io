@@ -1,0 +1,6 @@
+#!/bin/csh
+foreach name (`cat ~mdd/WWW/GPOTS2015/gpotspartlist`)
+mailx -s "GPOTS INFO" $name < ~mdd/WWW/GPOTS2015/request-abstracts.tex
+sleep 1
+end
+

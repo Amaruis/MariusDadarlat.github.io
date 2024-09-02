@@ -1,0 +1,5 @@
+#!/bin/csh
+foreach name (`cat ~mdd/WWW/Wabash/party-list`)
+mailx -s "Party/New address" $name < ~mdd/WWW/Wabash/party.tex
+sleep 5
+end

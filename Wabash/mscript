@@ -1,0 +1,6 @@
+#!/bin/csh
+foreach name (`cat ~mdd/WWW/Wabash/uswab.email.list`)
+mailx -s "Wabash Miniconference on September 12-13" $name < ~mdd/WWW/Wabash/announcement-conf.tex
+sleep 1
+end
+
